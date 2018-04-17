@@ -1,0 +1,26 @@
+TEST CASES
+EQ
+| Test data || E. result || A. result || pass/fail |
+|    -2     ||   fail    ||   fail    ||    pass   |
+|   23.4    ||     N     ||     N     ||    pass   |
+|   58.2    ||     P     ||     P     ||    pass   |
+|   65.1    ||     C     ||     C     ||    pass   |
+|   82.98   ||     D     ||     D     ||    pass   |
+|   85.7    ||    HD     ||     HD    ||    pass   |
+|   103     ||   fail    ||   fail    ||    pass   |
+ 
+TEST CASES
+BVA
+| Test data || E. result || A. result || pass/fail |
+|    -1     ||   fail    ||   fail    ||    pass   |
+|     0     ||    N      ||     N     ||    pass   |
+|   49.99   ||    N      ||     fail     ||    fail   |
+|     50    ||    P      ||     P     ||    pass   |
+|   62.99   ||    P      ||     fail     ||    fail   |
+|     63    ||    C      ||     C     ||    pass   |
+|   72.99   ||    C      ||     C     ||    pass   |
+|     73    ||    D      ||     D     ||    pass   |
+|   82.99   ||    D      ||     D     ||    pass   |
+|     83    ||    HD     ||     HD    ||    pass   |
+|    100    ||    HD     ||     HD    ||    pass   |
+|    101    ||   fail    ||   fail    ||    pass   |
