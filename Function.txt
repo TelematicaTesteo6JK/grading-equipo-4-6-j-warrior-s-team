@@ -1,0 +1,36 @@
+string australian_grade(float grade)
+{
+	string aGrade(" ");
+	if (grade>=0 && grade<=49.99)
+		aGrade = "N";
+    else
+	if (grade>=50 && grade<=62.99)
+		aGrade = "P"; 
+    else
+    if (grade>=63 && grade<=72.99)
+		aGrade = "C"; 
+    else
+    if (grade>=73 && grade<=82.99)
+        aGrade = "D"; 
+    else
+    if (grade>=83 && grade<=100)
+        aGrade = "HD"; 
+    else
+        aGrade = "fail";
+
+
+
+	return aGrade;
+}
+
+void prueba (string e_result, string a_result)
+{
+    if( e_result == a_result)
+        {
+            cout << "|    pass   |" << endl;
+        } 
+    else
+        {
+            cout << "|    fail   |" << endl;
+        }
+}
